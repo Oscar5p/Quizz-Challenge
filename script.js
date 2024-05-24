@@ -84,4 +84,12 @@ const questions = [
       { text: "22", correct: false },
     ],
   },
+  {
+    question: "Which coding program is known to be the most difficult?",
+    answer: [
+      { text: "HTML", correct: false },
+      { text: "Python", correct: false },
+      { text: "Javascript", correct: true },
+    ],
+  },
 ];
