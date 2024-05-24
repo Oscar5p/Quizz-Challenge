@@ -11,11 +11,11 @@ nextButton.addEventListener("click", () => {
   currentQuestionIndex++;
   setNextQuestion();
 });
-let shuffeledQuestions, currentQuestionIndex;
+let shuffledQuestions, currentQuestionIndex;
 
 function startGame() {
   startButton.classList.add("hide");
-  shuffeledQuestions = questions.sort(() => Math.random() - 0.5);
+  shuffledQuestions = questions.sort(() => Math.random() - 0.5);
   currentQuestionIndex = 0;
   questionContainerElement.classList.remove("hide");
   setNextQuestion();
@@ -23,7 +23,7 @@ function startGame() {
 
 function setNextQuestion() {
   resetState();
-  showQuestion(shuffeledQuestions[currentQuestionIndex]);
+  showQuestion(shuffledQuestions[currentQuestionIndex]);
 }
 
 function showQuestion(question) {
@@ -86,7 +86,7 @@ const questions = [
   },
   {
     question: "Which coding program is known to be the most difficult?",
-    answer: [
+    answers: [
       { text: "HTML", correct: false },
       { text: "Python", correct: false },
       { text: "Javascript", correct: true },
