@@ -6,7 +6,7 @@ startButton.addEventListener("click", startGame);
 
 function startGame() {
   console.log("Started");
-  startButton.innerText = "test";
+  startButton.innerText = "Next!";
   // startButton.classList.add('hide')
   questionContainerElement.classList.remove("hide");
   setNextQuestion();
