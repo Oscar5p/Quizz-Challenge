@@ -54,11 +54,20 @@ For the countdown timer i got an idea from this channel: https://www.youtube.com
 
 
 ## W3C Validator
+
+### This is index.html
 ![index html validator clear](https://github.com/Oscar5p/Quizz-Challenge/assets/166016267/5b15aefc-d958-4cfa-b891-6183433f8902)
+### This is style.css
 ![style css validator clear](https://github.com/Oscar5p/Quizz-Challenge/assets/166016267/f0557151-3080-4781-9b13-5aa636a3a1a0)
+### This is script.js
+I tried to fix the errors but i couldn't get the hang of it.
+![script js validator](https://github.com/Oscar5p/Quizz-Challenge/assets/166016267/ebf69da6-83dd-4af6-a679-da0191c6bd0b)
+![script js validator 2](https://github.com/Oscar5p/Quizz-Challenge/assets/166016267/030f9ed1-fed4-460b-b90f-8abac184ebe7)
+
 
 
 
 ## Lighthouse 
+### My Lighthouse gave me errors no matter what i tried, here's a screenshot on how it looks!
 
 
