@@ -19,6 +19,7 @@ function startGame() {
   startButton.classList.add("hide");
   shuffledQuestions = questions.sort(() => Math.random() - 0.5);
   currentQuestionIndex = 0;
+  score = 0;
   questionContainerElement.classList.remove("hide");
   setNextQuestion();
 }
@@ -75,6 +76,7 @@ function selectAnswer(e) {
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove("hide");
   } else {
+    showScore();
     startButton.innerText = "Restart";
     startButton.classList.remove("hide");
   }
@@ -95,6 +97,14 @@ function setStatusClass(element, correct) {
 function clearStatusClass(element) {
   element.classList.remove("correct");
   element.classList.remove("wrong");
+}
+
+function showScore() {
+  questionContainerElement.classList.add("hide");
+  const scoreElement = document.createElement("div");
+  scoreElement.classList.add("score");
+  scoreElement.innerText = "Yippie! You scored ${score} out of 4 points!";
+  document.body.appendChild(scoreElement);
 }
 
 const questions = [
