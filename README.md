@@ -10,6 +10,7 @@
 ### Website Features
 ### How To Use It
 ### Code Inspo and Information
+### Code Languages
 
 ## Overview 
 ### This project is a Quizz Challenge and users are going to answer on four questions with different options, sometimes there are two options sometimes three or four.
@@ -40,6 +41,17 @@ I got my inspiration from this channel on youtube called:  https://www.youtube.c
 ## More inspiration!
 ### Countdown Timer
 For the countdown timer i got an idea from this channel: https://www.youtube.com/watch?v=jpVZ17FfOFU&ab_channel=MizDeveloper%27s
+
+
+## Coding Languages!
+### HTML
+
+### CSS
+
+### Javascript
+
+
+
 
 ## My Favicon!
 ![android-chrome-192x192](https://github.com/Oscar5p/Quizz-Challenge/assets/166016267/98dce591-9753-4638-84d7-782720e36915)
