@@ -70,4 +70,7 @@ I tried to fix the errors but i couldn't get the hang of it.
 ## Lighthouse 
 ### My Lighthouse gave me errors no matter what i tried, here's a screenshot on how it looks!
 
+# Contact
+### lakro001@live.se
+
 
