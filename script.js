@@ -99,10 +99,10 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: "Is the earth flat?",
+    question: "Is Jack Sparrow a pirate?",
     answers: [
-      { text: "No", correct: true },
-      { text: "Yes", correct: false },
+      { text: "No", correct: false },
+      { text: "Yes", correct: true },
     ],
   },
   {
