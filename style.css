@@ -33,12 +33,13 @@ body.wrong {
 }
 
 .container {
-    width: 700px;
-    max-width: 80%;
+    width: 900px;
+    max-width: 90%;
     background-color: whitesmoke;
-    border-radius: 5px;
-    padding: 20px;
+    border-radius: 15px;
+    padding: 25px;
     box-shadow: 0 0 10px 2px;
+    
 }
 
 .btn-grid {
