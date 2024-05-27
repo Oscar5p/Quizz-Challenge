@@ -92,6 +92,23 @@ const questions = [
       { text: "Javascript", correct: true },
     ],
   },
+  {
+    question: "In which program did i code this quizz?",
+    answers: [
+      { text: "Code Anywhere", correct: false },
+      { text: "Replit", correct: false },
+      { text: "Gitpod", correct: true },
+    ],
+  },
+  {
+    question: "What's my favorite food?",
+    answers: [
+      { text: "Kebab", correct: false },
+      { text: "Pizza", correct: false },
+      { text: "Hamburger", correct: true },
+      { text: "Pad Thai", correct: false },
+    ],
+  },
 ];
 
 // I would like to give Credit and aknowledge NOT all code BUT some code to this guy! check below for the link =)
