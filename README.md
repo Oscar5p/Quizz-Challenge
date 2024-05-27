@@ -37,7 +37,10 @@ At the end you will get your score and you can also hit the "Restart" button if 
 ### Structure
 I got my inspiration from this channel on youtube called:  https://www.youtube.com/watch?v=riDzcEQbX6k&ab_channel=WebDevSimplified
 
+## More inspiration!
 ### Countdown Timer
 For the countdown timer i got an idea from this channel: https://www.youtube.com/watch?v=jpVZ17FfOFU&ab_channel=MizDeveloper%27s
+
+## Screenshots
 
 
