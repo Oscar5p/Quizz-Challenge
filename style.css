@@ -20,6 +20,7 @@ body {
     align-items: center;
     background-color: darkorchid;
     
+    
 }
 
 body.correct {
@@ -39,6 +40,7 @@ body.wrong {
     border-radius: 15px;
     padding: 25px;
     box-shadow: 0 0 10px 2px;
+    
     
 }
 
@@ -107,6 +109,12 @@ btn:hover {
    
 }
 
+.progress {
+    position: absolute;
+    font-size:xx-large;
+    top: 15%;
+    text-align: end;
+}
 
 /* I would like to give Credit and aknowledge NOT all code BUT some code to this guy! check below for the link =) */
 /* I'm also putting this in every page of my code so you can see it =) */

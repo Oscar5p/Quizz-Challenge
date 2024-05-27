@@ -119,6 +119,15 @@ const questions = [
   },
 ];
 
+let timeleft = 10;
+let downloadTimer = setInterval(function () {
+  if (timeleft <= 0) {
+    timeleft = 10;
+  }
+  document.getElementById("progressBar").value = 10 - timeleft;
+  timeleft -= 1;
+}, 1000);
+
 // I would like to give Credit and aknowledge NOT all code BUT some code to this guy! check below for the link =)
 // I'm also putting this in every page of my code so you can see it =)
 
