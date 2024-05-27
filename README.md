@@ -44,3 +44,9 @@ For the countdown timer i got an idea from this channel: https://www.youtube.com
 ## Screenshots
 
 
+## W3C Validator
+
+
+## Lighthouse 
+
+
