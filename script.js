@@ -45,7 +45,6 @@ function setNextQuestion() {
 }
 
 function showQuestion(question) {
-  debugger;
   questionElement.innerText = question.question;
   question.answers.forEach((answer) => {
     const button = document.createElement("button");
@@ -75,7 +74,6 @@ function selectAnswer(e) {
   }
   //* setStatusClass(document.body, correct);
   Array.from(answerButtonsElement.children).forEach((button) => {
-    debugger;
     setStatusClass(button, button.dataset.correct);
   });
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
@@ -90,7 +88,6 @@ function selectAnswer(e) {
 function setStatusClass(element, correct) {
   clearStatusClass(element);
   if (correct) {
-    debugger;
     element.classList.add("correct");
     console.log(score);
   } else {
