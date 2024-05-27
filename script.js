@@ -15,7 +15,6 @@ nextButton.addEventListener("click", () => {
 let shuffledQuestions, currentQuestionIndex;
 
 function startGame() {
-  debugger;
   startButton.classList.add("hide");
   shuffledQuestions = questions.sort(() => Math.random() - 0.5);
   currentQuestionIndex = 0;
@@ -29,7 +28,6 @@ function startGame() {
 }
 
 function setNextQuestion() {
-  debugger;
   resetState();
   clearInterval(downloadTimer);
   timeleft = 10;
@@ -109,7 +107,7 @@ function showScore() {
   questionContainerElement.classList.add("hide");
   const scoreElement = document.createElement("div");
   scoreElement.classList.add("score");
-  scoreElement.innerText = `Yippie! You scored ${score} out of ${questions.length} points!`;
+  scoreElement.innerText = `Congratulations! You scored ${score} out of ${questions.length} points!`;
   document.body.appendChild(scoreElement);
 }
 
