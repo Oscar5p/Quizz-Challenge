@@ -3,6 +3,7 @@ const nextButton = document.getElementById("next-btn");
 const questionContainerElement = document.getElementById("question-container");
 const questionElement = document.getElementById("question");
 const answerButtonsElement = document.getElementById("answer-buttons");
+let score = 0;
 
 console.log(startButton);
 console.log(document.getElementsByClassName("btn"));
@@ -14,6 +15,7 @@ nextButton.addEventListener("click", () => {
 let shuffledQuestions, currentQuestionIndex;
 
 function startGame() {
+  debugger;
   startButton.classList.add("hide");
   shuffledQuestions = questions.sort(() => Math.random() - 0.5);
   currentQuestionIndex = 0;
@@ -22,11 +24,13 @@ function startGame() {
 }
 
 function setNextQuestion() {
+  debugger;
   resetState();
   showQuestion(shuffledQuestions[currentQuestionIndex]);
 }
 
 function showQuestion(question) {
+  debugger;
   questionElement.innerText = question.question;
   question.answers.forEach((answer) => {
     const button = document.createElement("button");
@@ -35,7 +39,7 @@ function showQuestion(question) {
     if (answer.correct) {
       button.dataset.correct = answer.correct;
     }
-    button.addEventListener("click", selectAnswer);
+    button.addEventListener("click", selectAnswer, { once: true });
     answerButtonsElement.appendChild(button);
   });
 }
@@ -50,8 +54,9 @@ function resetState() {
 function selectAnswer(e) {
   const selectedButton = e.target;
   const correct = selectedButton.dataset.correct;
-  setStatusClass(document.body, correct);
+  //* setStatusClass(document.body, correct);
   Array.from(answerButtonsElement.children).forEach((button) => {
+    debugger;
     setStatusClass(button, button.dataset.correct);
   });
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
@@ -65,7 +70,10 @@ function selectAnswer(e) {
 function setStatusClass(element, correct) {
   clearStatusClass(element);
   if (correct) {
+    debugger;
     element.classList.add("correct");
+    score++;
+    console.log(score);
   } else {
     element.classList.add("wrong");
   }
@@ -103,9 +111,9 @@ const questions = [
   {
     question: "What's my favorite food?",
     answers: [
-      { text: "Kebab", correct: false },
-      { text: "Pizza", correct: false },
       { text: "Hamburger", correct: true },
+      { text: "Pizza", correct: false },
+      { text: "Kebab", correct: false },
       { text: "Pad Thai", correct: false },
     ],
   },
