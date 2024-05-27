@@ -42,6 +42,11 @@ I got my inspiration from this channel on youtube called:  https://www.youtube.c
 For the countdown timer i got an idea from this channel: https://www.youtube.com/watch?v=jpVZ17FfOFU&ab_channel=MizDeveloper%27s
 
 ## Screenshots
+### Here's some screenshots from my Quizz!
+![Screenshot 1](https://github.com/Oscar5p/Quizz-Challenge/assets/166016267/640dc825-97b0-4a53-89f5-d0471c97c1d1)
+![Screenshot 2](https://github.com/Oscar5p/Quizz-Challenge/assets/166016267/7c9601c5-42bd-4f4c-a5c5-cf457c590597)
+![Screenshot 3](https://github.com/Oscar5p/Quizz-Challenge/assets/166016267/f344d93d-c253-4727-a4df-f1c50b0e4fb7)
+
 
 
 ## W3C Validator
