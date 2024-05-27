@@ -71,6 +71,7 @@ I tried to fix the errors but i couldn't get the hang of it.
 ### My Lighthouse gave me errors no matter what i tried, here's a screenshot on how it looks!
 
 # Contact
+## My Email:
 ### lakro001@live.se
 
 
