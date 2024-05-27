@@ -45,10 +45,13 @@ For the countdown timer i got an idea from this channel: https://www.youtube.com
 
 ## Coding Languages!
 ### HTML
+Here's my HTML the basic stuff on my page.
 
 ### CSS
+In the CSS i made minor styling for my quiz and some visualization.
 
 ### Javascript
+Script.js (JAVASCRIPT) was the main program where i had the base and structure for my code/quizz.
 
 
 
