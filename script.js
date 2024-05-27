@@ -72,6 +72,9 @@ function selectAnswer(e) {
   clearInterval(downloadTimer);
   const selectedButton = e.target;
   const correct = selectedButton.dataset.correct === "true";
+  if (correct) {
+    score++;
+  }
   //* setStatusClass(document.body, correct);
   Array.from(answerButtonsElement.children).forEach((button) => {
     debugger;
@@ -91,7 +94,6 @@ function setStatusClass(element, correct) {
   if (correct) {
     debugger;
     element.classList.add("correct");
-    score++;
     console.log(score);
   } else {
     element.classList.add("wrong");
