@@ -26,6 +26,18 @@ function startGame() {
 function setNextQuestion() {
   debugger;
   resetState();
+  clearInterval(downloadTimer);
+  timeleft = 10;
+  downloadTimer = setInterval(function () {
+    if (timeleft <= 0) {
+      clearInterval(downloadTimer);
+      goToNextQuestion();
+      timeleft = 10;
+    } else {
+      document.getElementById("progressBar").value = 10 - timeleft;
+      timeleft -= 1;
+    }
+  }, 1000);
   showQuestion(shuffledQuestions[currentQuestionIndex]);
 }
 
@@ -52,6 +64,7 @@ function resetState() {
 }
 
 function selectAnswer(e) {
+  clearInterval(downloadTimer);
   const selectedButton = e.target;
   const correct = selectedButton.dataset.correct;
   //* setStatusClass(document.body, correct);
@@ -122,11 +135,22 @@ const questions = [
 let timeleft = 10;
 let downloadTimer = setInterval(function () {
   if (timeleft <= 0) {
+    clearInterval(downloadTimer);
+    goToNextQuestion();
     timeleft = 10;
+  } else {
+    document.getElementById("progressBar").value = 10 - timeleft;
+    timeleft -= 1;
   }
-  document.getElementById("progressBar").value = 10 - timeleft;
-  timeleft -= 1;
 }, 1000);
+
+function goToNextQuestion() {
+  currentQuestionIndex++;
+  if (currentQuestionIndex < shuffledQuestions.length) {
+    setNextQuestion();
+  } else {
+  }
+}
 
 // I would like to give Credit and aknowledge NOT all code BUT some code to this guy! check below for the link =)
 // I'm also putting this in every page of my code so you can see it =)
