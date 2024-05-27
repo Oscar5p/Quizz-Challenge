@@ -156,3 +156,7 @@ function goToNextQuestion() {
 // I'm also putting this in every page of my code so you can see it =)
 
 // https://www.youtube.com/watch?v=riDzcEQbX6k&ab_channel=WebDevSimplified
+
+// The link below is my structure to the countdown bar and i want to give my credit and show my thanks =) however, the looping is not in the video.
+
+// https://www.youtube.com/watch?v=jpVZ17FfOFU&ab_channel=MizDeveloper%27s
