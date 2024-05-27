@@ -156,7 +156,7 @@ let downloadTimer = setInterval(function () {
     document.getElementById("progressBar").value = 10 - timeleft;
     timeleft -= 1;
   }
-}, 1000);
+});
 
 function goToNextQuestion() {
   currentQuestionIndex++;
