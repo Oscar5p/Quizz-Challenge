@@ -1,2 +1,2 @@
 # My Quizz Challenge!
-## Projcet 2 (Javascript)
+## Project 2 (Javascript)
