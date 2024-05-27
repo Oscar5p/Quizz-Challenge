@@ -21,6 +21,10 @@ function startGame() {
   currentQuestionIndex = 0;
   score = 0;
   questionContainerElement.classList.remove("hide");
+  const previousScore = document.querySelector(".score");
+  if (previousScore) {
+    previousScore.remove();
+  }
   setNextQuestion();
 }
 
@@ -67,7 +71,7 @@ function resetState() {
 function selectAnswer(e) {
   clearInterval(downloadTimer);
   const selectedButton = e.target;
-  const correct = selectedButton.dataset.correct;
+  const correct = selectedButton.dataset.correct === "true";
   //* setStatusClass(document.body, correct);
   Array.from(answerButtonsElement.children).forEach((button) => {
     debugger;
@@ -103,7 +107,7 @@ function showScore() {
   questionContainerElement.classList.add("hide");
   const scoreElement = document.createElement("div");
   scoreElement.classList.add("score");
-  scoreElement.innerText = "Yippie! You scored ${score} out of 4 points!";
+  scoreElement.innerText = `Yippie! You scored ${score} out of ${questions.length} points!`;
   document.body.appendChild(scoreElement);
 }
 
