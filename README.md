@@ -32,5 +32,11 @@ The timer will begin when you press "Start" and you've got 10 seconds on every q
 At the end you will get your score and you can also hit the "Restart" button if you'd like to play again!
 
 
+## Where did i get my inspiration?
+### Structure
+I got my inspiration from this channel on youtube called:  https://www.youtube.com/watch?v=riDzcEQbX6k&ab_channel=WebDevSimplified
+
+### Countdown Timer
+For the countdown timer i got an idea from this channel: https://www.youtube.com/watch?v=jpVZ17FfOFU&ab_channel=MizDeveloper%27s
 
 
