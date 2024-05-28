@@ -83,7 +83,12 @@ I tried to fix the errors but i couldn't get the hang of it.
 
 
 ## Lighthouse 
-### My Lighthouse gave me errors no matter what i tried, here's a screenshot on how it looks!
+### Here is some screenshots from Lighthouse!
+This is for the PC
+![Lighthouse PC](https://github.com/Oscar5p/Quizz-Challenge/assets/166016267/a1a0f6bb-4676-4a78-8f93-87540e89bb1d)
+And this is for the Mobile
+![Lighthouse mobile](https://github.com/Oscar5p/Quizz-Challenge/assets/166016267/1c11fc70-4671-45bc-a19f-5a1ef84a506b)
+
 
 # Contact
 ## My Email:
