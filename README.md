@@ -33,7 +33,7 @@ The timer will begin when you press "Start" and you've got 10 seconds on every q
 At the end you will get your score and you can also hit the "Restart" button if you'd like to play again!
 
 
-# Credit And Big Thanks To The Following... See Below!
+# Credit/Acknowledgement  And Big Thanks To The Following... See Below!
 ## Where did i get my inspiration?
 ### Structure
 I got my inspiration from this channel on youtube called:  https://www.youtube.com/watch?v=riDzcEQbX6k&ab_channel=WebDevSimplified
